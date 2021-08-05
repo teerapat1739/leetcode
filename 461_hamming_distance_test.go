@@ -19,6 +19,15 @@ func Test_hammingDistance(t *testing.T) {
 				x: 1,
 				y: 4,
 			},
+			want: 2,
+		},
+		{
+			name: "case1",
+			args: args{
+				x: 3,
+				y: 1,
+			},
+			want: 1,
 		},
 	}
 	for _, tt := range tests {
