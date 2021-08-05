@@ -1,51 +1,35 @@
 package leetcode
 
 import (
-	"fmt"
 	"math"
 )
 
 func minFallingPathSum(matrix [][]int) int {
-	type Node struct {
-		value    int
-		position int
-	}
-	var n []Node
-	if len(matrix) == 0 {
-		return 0
-	}
-	sum := 0
-	for i := 0; i < len(matrix); i++ {
-		min := matrix[i][0]
-		pos := 0
-		pos2 := 0
-		if len(n) > 0 && i > 1 {
-			pos2 = n[len(n)-1].position
-			matrix[i][pos] = 101
-		}
-		fmt.Println(matrix, pos2)
-		for j := 0; j < len(matrix); j++ {
-			fmt.Println("ddd", i, j, pos2, min, matrix[i][j])
 
-			if (math.Abs(float64(j-pos2)) == 1) && i > 0 && len(matrix) > 2 {
-				if j+1 > len(matrix) {
+	for i := 1; i < len(matrix); i++ {
+
+		for j := 0; j < len(matrix[i]); j++ {
+			arrPos := []int{j - 1, j, j + 1}
+			min := 101
+			for _, pos := range arrPos {
+				if pos < 0 || pos >= len(matrix[i]) {
 					continue
 				}
-				min = matrix[i][j]
-				fmt.Println("mmm", min)
-				continue
+				if matrix[i-1][pos] < min {
+					min = matrix[i-1][pos]
+				}
 			}
-			if matrix[i][j] < min {
-				min = matrix[i][j]
-				pos = j
-			}
-
+			matrix[i][j] += min
 		}
-		n = append(n, Node{min, pos})
 	}
-	fmt.Println("last", n)
-	for i := 0; i < len(n); i++ {
-		sum += n[i].value
+
+	result := math.MaxInt64
+
+	for _, v := range matrix[len(matrix)-1] {
+		if v < result {
+			result = v
+		}
 	}
-	return sum
+
+	return result
 }

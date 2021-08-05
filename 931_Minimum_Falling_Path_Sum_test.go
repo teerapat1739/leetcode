@@ -12,38 +12,38 @@ func Test_minFallingPathSum(t *testing.T) {
 		want int
 	}{
 		// TODO: Add test cases.
-		// {
-		// 	name: "Example 1",
-		// 	args: args{
-		// 		matrix: [][]int{
-		// 			{2, 1, 3},
-		// 			{6, 5, 4},
-		// 			{7, 8, 9},
-		// 		},
-		// 	},
-		// 	want: 13,
-		// },
-		// {
-		// 	name: "Example 2",
-		// 	args: args{
-		// 		matrix: [][]int{
-		// 			{-19, 57},
-		// 			{-40, -5},
-		// 		},
-		// 	},
-		// 	want: -59,
-		// },
-		// {
-		// 	name: "Example 3",
-		// 	args: args{
-		// 		matrix: [][]int{
-		// 			{-48},
-		// 		},
-		// 	},
-		// 	want: -48,
-		// },
+		{
+			name: "Example 1",
+			args: args{
+				matrix: [][]int{
+					{2, 1, 3},
+					{6, 5, 4},
+					{7, 8, 9},
+				},
+			},
+			want: 13,
+		},
+		{
+			name: "Example 2",
+			args: args{
+				matrix: [][]int{
+					{-19, 57},
+					{-40, -5},
+				},
+			},
+			want: -59,
+		},
 		{
 			name: "Example 3",
+			args: args{
+				matrix: [][]int{
+					{-48},
+				},
+			},
+			want: -48,
+		},
+		{
+			name: "Example 4",
 			args: args{
 				matrix: [][]int{
 					{100, -42, -46, -41},
@@ -52,7 +52,7 @@ func Test_minFallingPathSum(t *testing.T) {
 					{51, 81, 69, -51},
 				},
 			},
-			want: -48,
+			want: -36,
 		},
 	}
 	for _, tt := range tests {
