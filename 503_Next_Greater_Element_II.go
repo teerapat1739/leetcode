@@ -1,7 +1,5 @@
 package leetcode
 
-import "fmt"
-
 type Stack struct {
 	items []Item
 }
@@ -45,7 +43,6 @@ func nextGreaterElements(nums []int) []int {
 				break
 			}
 		}
-		fmt.Println(tempStack)
 		for len(tempStack.items) > 0 {
 			item := tempStack.Pop()
 			myStack.Push(item)
