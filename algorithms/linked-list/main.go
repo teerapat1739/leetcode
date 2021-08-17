@@ -19,6 +19,18 @@ func (l *linkedList) insert(n *node) {
 	l.length++
 }
 
+func (l *linkedList) search(value int) bool {
+
+	currentNode := l.head
+	for currentNode != nil {
+		if currentNode.data == value {
+			return true
+		}
+		currentNode = currentNode.next
+	}
+	return false
+}
+
 func (l *linkedList) delete(value int) {
 	if l.length == 0 {
 		return
