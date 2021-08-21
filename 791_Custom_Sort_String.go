@@ -11,27 +11,25 @@ func customSortString(order string, s string) string {
 		sMap[v] += 1
 	}
 	res := []rune{}
-	for _, v := range orderMap {
+	for _, v := range order {
 		idxx := rune(v)
-		iSval, Sok := sMap[idxx]
+		_, Sok := sMap[idxx]
 		if Sok {
-			sMap[idxx] -= 1
-			if iSval == 0 {
-				delete(sMap, idxx)
+			for sMap[idxx] != 0 {
+				res = append(res, idxx)
+				sMap[idxx] -= 1
+
 			}
-			res = append(res, idxx)
+			delete(sMap, idxx)
 		}
 	}
-
-	for _, v := range sMap {
-		idxx := rune(v)
-		_, Oderok := orderMap[idxx]
-		if Oderok {
-			sMap[idxx] -= 1
-			if sMap[idxx] == 0 {
-				delete(sMap, idxx)
+	for i, _ := range sMap {
+		for sMap[i] != 0 {
+			res = append(res, rune(i))
+			sMap[i] -= 1
+			if sMap[i] == 0 {
+				delete(sMap, i)
 			}
-			res = append(res, idxx)
 		}
 	}
 	return string(res)
