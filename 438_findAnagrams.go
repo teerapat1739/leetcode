@@ -68,6 +68,11 @@ func findAnagrams2(s string, p string) []int {
 	return arr
 }
 
+/*
+Runtime: 4 ms, faster than 97.58% of Go online submissions for Find All Anagrams in a String.
+Memory Usage: 5.2 MB, less than 97.58% of Go online submissions for Find All Anagrams in a String.
+*/
+
 func findAnagrams3(s string, p string) []int {
 	// ms :=
 	if len(s) < len(p) {
