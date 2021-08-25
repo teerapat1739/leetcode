@@ -67,3 +67,34 @@ func findAnagrams2(s string, p string) []int {
 
 	return arr
 }
+
+func findAnagrams3(s string, p string) []int {
+	// ms :=
+	if len(s) < len(p) {
+		return []int{}
+	}
+
+	arr := []int{}
+	target := [26]int{}
+	count := [26]int{}
+
+	for i := range p {
+		target[p[i]-'a']++
+		count[s[i]-'a']++
+	}
+	start := 0
+	for i := len(p); i < len(s); i++ {
+		if count == target {
+			arr = append(arr, start)
+		}
+		count[s[start]-'a']--
+		count[s[i]-'a']++
+		start++
+	}
+
+	if count == target {
+		arr = append(arr, start)
+	}
+
+	return arr
+}
