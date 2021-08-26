@@ -53,7 +53,6 @@ func lengthOfLIS2(nums []int) int {
 	m := make(map[int]Sub)
 	for i := 0; i < length; i++ {
 		m[i] = Sub{nums[i], i, 1}
-		// j := m[i].index
 		for j := i - 1; j >= 0; j-- {
 			if nums[i] > nums[j] {
 				a := Max(m[i].lis, m[j].lis+1)
@@ -66,7 +65,6 @@ func lengthOfLIS2(nums []int) int {
 			}
 		}
 	}
-	fmt.Println(m)
 	return max
 }
 
