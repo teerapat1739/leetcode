@@ -8,6 +8,8 @@ type Sub struct {
 	lis   int
 }
 
+// https://drive.google.com/file/d/1hSi4sPrwzsBzVGC4e4CnbwebPjubWa-X/view?usp=sharing
+
 /*
 Success
 Runtime: 1280 ms, faster than 5.01% of Go online submissions for Longest Increasing Subsequence.
