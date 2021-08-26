@@ -74,3 +74,28 @@ func Max(a, b int) int {
 	}
 	return b
 }
+
+/*
+use: dynamic programing
+Success
+Runtime: 52 ms, faster than 50.84% of Go online submissions for Longest Increasing Subsequence.
+Memory Usage: 3.8 MB, less than 32.28% of Go online submissions for Longest Increasing
+*/
+func lengthOfLIS3(nums []int) int {
+	length := len(nums)
+	if length == 0 {
+		return 0
+	}
+	max := 1
+	m := make([]int, len(nums))
+	for i := 0; i < length; i++ {
+		m[i] = 1
+		for j := i - 1; j >= 0; j-- {
+			if nums[i] > nums[j] {
+				m[i] = Max(m[i], m[j]+1)
+			}
+		}
+		max = Max(m[i], max)
+	}
+	return max
+}
