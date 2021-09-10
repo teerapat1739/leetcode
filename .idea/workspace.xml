@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/35_Search_Insert_Position.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/35_Search_Insert_Position_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/125_Valid_Palindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/125_Valid_Palindrome.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_Longest_Palindromic_Substring.go" beforeDir="false" afterPath="$PROJECT_DIR$/5_Longest_Palindromic_Substring.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_Longest_Palindromic_Substring_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/5_Longest_Palindromic_Substring_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
@@ -25,6 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -38,8 +45,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_longestPalindrome in leetcode-everyday">
-    <configuration name="Test_customSortString in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_searchInsert/case_3 in leetcode-everyday">
+    <configuration name="Test_searchInsert in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -47,10 +54,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_customSortString\E$" />
+      <pattern value="^\QTest_searchInsert\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_longestPalindrome in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_searchInsert/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -58,10 +65,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_longestPalindrome\E$" />
+      <pattern value="^\QTest_searchInsert\E$/^\Qcase_2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_longestPalindrome/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_searchInsert/case_3 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -69,10 +76,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_longestPalindrome\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_searchInsert\E$/^\Qcase_3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_longestPalindrome/case_4 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_searchInsert/case_3#01 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -80,10 +87,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_longestPalindrome\E$/^\Qcase_4\E$" />
+      <pattern value="^\QTest_searchInsert\E$/^\Qcase_3#01\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_longestPalindrome/case_6 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_searchInsert/case_4 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -91,22 +98,33 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_longestPalindrome\E$/^\Qcase_6\E$" />
+      <pattern value="^\QTest_searchInsert\E$/^\Qcase_4\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_longestPalindrome in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_longestPalindrome/case_6 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_longestPalindrome/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_longestPalindrome/case_4 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_customSortString in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_searchInsert/case_3 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_searchInsert/case_3#01 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_searchInsert/case_4 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_searchInsert in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_searchInsert/case_2 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
