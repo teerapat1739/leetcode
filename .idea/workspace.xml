@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Success&#10;Details&#10;Runtime: 4 ms, faster than 81.75% of Go online submissions for Search Insert Position.&#10;Memory Usage: 3 MB, less than 28.19% of Go online submissions for Search Insert Position.">
-      <change afterPath="$PROJECT_DIR$/119_Pascal_Triangle_II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/119_Pascal_Triangle_II_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/343_Integer_Break.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/343_Integer_Break_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_getRow/case_1 in leetcode-everyday">
+  <component name="RunManager" selected="Go Test.Test_integerBreak/case_10 in leetcode-everyday">
     <configuration name="Test_generate/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,6 +68,28 @@
       <pattern value="^\QTest_getRow\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_integerBreak/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_integerBreak\E$/^\Qcase_1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_integerBreak/case_10 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_integerBreak\E$/^\Qcase_10\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_jump in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -79,35 +101,13 @@
       <pattern value="^\QTest_jump\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_jump/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_jump\E$/^\Qcase_1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_jump/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_jump\E$/^\Qcase_2\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_integerBreak/case_10 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_integerBreak/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_getRow/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_generate/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_jump in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_jump/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_jump/case_2 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +216,11 @@
           <url>file://$PROJECT_DIR$/22_Generate_Parentheses_test.go</url>
           <line>25</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/343_Integer_Break.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
