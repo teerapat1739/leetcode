@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Success&#10;Details&#10;Runtime: 4 ms, faster than 81.75% of Go online submissions for Search Insert Position.&#10;Memory Usage: 3 MB, less than 28.19% of Go online submissions for Search Insert Position.">
-      <change afterPath="$PROJECT_DIR$/509_Fibonacci_Number.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Success&#10;Details&#10;Runtime: 4 ms, faster than 81.75% of Go online submissions for Search Insert Position.&#10;Memory Usage: 3 MB, less than 28.19% of Go online submissions for Search Insert Position.&#10;&#10;Topdown solution">
+      <change afterPath="$PROJECT_DIR$/1646_Get_Maximum_In_GeneratedArray_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,14 @@
   <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -44,8 +52,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_integerBreak/case_10 in leetcode-everyday">
-    <configuration name="Test_generate/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_getMaximumGenerated/case_4 in leetcode-everyday">
+    <configuration name="Test_getMaximumGenerated in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -53,10 +61,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_generate\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_getMaximumGenerated\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_getRow/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_getMaximumGenerated/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -64,10 +72,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_getRow\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_getMaximumGenerated\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_integerBreak/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_getMaximumGenerated/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -75,10 +83,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_integerBreak\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_getMaximumGenerated\E$/^\Qcase_2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_integerBreak/case_10 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_getMaximumGenerated/case_3 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -86,10 +94,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_integerBreak\E$/^\Qcase_10\E$" />
+      <pattern value="^\QTest_getMaximumGenerated\E$/^\Qcase_3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_jump in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_getMaximumGenerated/case_4 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -97,16 +105,16 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_jump\E$" />
+      <pattern value="^\QTest_getMaximumGenerated\E$/^\Qcase_4\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_integerBreak/case_10 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_integerBreak/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_getRow/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_generate/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_jump in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_getMaximumGenerated/case_4 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_getMaximumGenerated in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_getMaximumGenerated/case_3 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_getMaximumGenerated/case_2 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_getMaximumGenerated/case_1 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +136,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Success&#10;Details&#10;Runtime: 4 ms, faster than 81.75% of Go online submissions for Search Insert Position.&#10;Memory Usage: 3 MB, less than 28.19% of Go online submissions for Search Insert Position." />
-    <option name="LAST_COMMIT_MESSAGE" value="Success&#10;Details&#10;Runtime: 4 ms, faster than 81.75% of Go online submissions for Search Insert Position.&#10;Memory Usage: 3 MB, less than 28.19% of Go online submissions for Search Insert Position." />
+    <MESSAGE value="Success&#10;Details&#10;Runtime: 4 ms, faster than 81.75% of Go online submissions for Search Insert Position.&#10;Memory Usage: 3 MB, less than 28.19% of Go online submissions for Search Insert Position.&#10;&#10;Topdown solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Success&#10;Details&#10;Runtime: 4 ms, faster than 81.75% of Go online submissions for Search Insert Position.&#10;Memory Usage: 3 MB, less than 28.19% of Go online submissions for Search Insert Position.&#10;&#10;Topdown solution" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -227,5 +236,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$Test_generateParenthesis_in_leetcode_everyday.out" NAME="Test_generateParenthesis in leetcode-everyday Coverage Results" MODIFIED="1631540812630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/leetcode$Test_generateParenthesis_case_1_in_leetcode_everyday.out" NAME="Test_generateParenthesis/case_1 in leetcode-everyday Coverage Results" MODIFIED="1631501654695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/leetcode$Test_getMaximumGenerated_case_1_in_leetcode_everyday.out" NAME="Test_getMaximumGenerated/case_1 in leetcode-everyday Coverage Results" MODIFIED="1632705800078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
