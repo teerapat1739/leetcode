@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 0 ms, faster than 100.00% of Go online submissions for N-th Tribonacci Number.&#10;Memory Usage: 2 MB, less than 52.41% of Go online submissions for N-th Tribonacci Number.">
-      <change afterPath="$PROJECT_DIR$/392_Is_Subsequence.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/392_Is_Subsequence_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="&#10;Runtime: 0 ms, faster than 100.00% of Go online submissions for Is Subsequence.&#10;Memory Usage: 2 MB, less than 51.98% of Go online submissions for Is Subsequence.">
+      <change afterPath="$PROJECT_DIR$/53_Maximum_Subarray.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/53_Maximum_Subarray_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_isSubsequence/case_3 in leetcode-everyday">
+  <component name="RunManager" selected="Go Test.Test_maxSubArray/case_1 in leetcode-everyday">
     <configuration name="Test_isSubsequence/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -88,7 +87,7 @@
       <pattern value="^\QTest_isSubsequence\E$/^\Qcase_3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_tribonacci/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_maxSubArray/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -96,7 +95,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_tribonacci\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_maxSubArray\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_tribonacci/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_maxSubArray/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_isSubsequence/case_3 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_isSubsequence/case_2 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_isSubsequence/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_tribonacci/case_2 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_tribonacci/case_1 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +140,8 @@
     <MESSAGE value="Success&#10;Details&#10;Runtime: 4 ms, faster than 81.75% of Go online submissions for Search Insert Position.&#10;Memory Usage: 3 MB, less than 28.19% of Go online submissions for Search Insert Position.&#10;&#10;Topdown solution" />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Get Maximum in Generated Array.&#10;Memory Usage: 2.1 MB, less than 96.15% of Go online submissions for Get Maximum in Generated Array." />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for N-th Tribonacci Number.&#10;Memory Usage: 2 MB, less than 52.41% of Go online submissions for N-th Tribonacci Number." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 0 ms, faster than 100.00% of Go online submissions for N-th Tribonacci Number.&#10;Memory Usage: 2 MB, less than 52.41% of Go online submissions for N-th Tribonacci Number." />
+    <MESSAGE value="&#10;Runtime: 0 ms, faster than 100.00% of Go online submissions for Is Subsequence.&#10;Memory Usage: 2 MB, less than 51.98% of Go online submissions for Is Subsequence." />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Runtime: 0 ms, faster than 100.00% of Go online submissions for Is Subsequence.&#10;Memory Usage: 2 MB, less than 51.98% of Go online submissions for Is Subsequence." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -228,6 +228,16 @@
           <url>file://$PROJECT_DIR$/22_Generate_Parentheses_test.go</url>
           <line>25</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/53_Maximum_Subarray.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/53_Maximum_Subarray.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
