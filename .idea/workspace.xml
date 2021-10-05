@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 108 ms, faster than 6.82% of Go online submissions for Maximum Subarray.&#10;Memory Usage: 9.9 MB, less than 15.78% of Go online submissions for Maximum Subarray.">
-      <change afterPath="$PROJECT_DIR$/650_2_Keys_Keyboard.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/650_2_Keys_Keyboard_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/894_All_Possible_Full_Binary_Trees.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 0 ms, faster than 100.00% of Go online submissions for 2 Keys Keyboard.&#10;Memory Usage: 2.1 MB, less than 70.59% of Go online submissions for 2 Keys Keyboard.">
+      <change afterPath="$PROJECT_DIR$/62_Unique_Paths.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62_Unique_Paths_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,29 +53,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_minSteps/case_6#01 in leetcode-everyday">
-    <configuration name="Test_minSteps/case_4 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_minSteps\E$/^\Qcase_4\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_minSteps/case_4#01 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_minSteps\E$/^\Qcase_4#01\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.Test_uniquePaths/case_1 in leetcode-everyday">
     <configuration name="Test_minSteps/case_5 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -110,13 +87,35 @@
       <pattern value="^\QTest_minSteps\E$/^\Qcase_6#01\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_uniquePaths/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_uniquePaths\E$/^\Qcase_1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_uniquePaths/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_uniquePaths\E$/^\Qcase_2\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_uniquePaths/case_1 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_uniquePaths/case_2 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_minSteps/case_6#01 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_minSteps/case_6 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_minSteps/case_5 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_minSteps/case_4 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_minSteps/case_4#01 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +142,8 @@
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for N-th Tribonacci Number.&#10;Memory Usage: 2 MB, less than 52.41% of Go online submissions for N-th Tribonacci Number." />
     <MESSAGE value="&#10;Runtime: 0 ms, faster than 100.00% of Go online submissions for Is Subsequence.&#10;Memory Usage: 2 MB, less than 51.98% of Go online submissions for Is Subsequence." />
     <MESSAGE value="Runtime: 108 ms, faster than 6.82% of Go online submissions for Maximum Subarray.&#10;Memory Usage: 9.9 MB, less than 15.78% of Go online submissions for Maximum Subarray." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 108 ms, faster than 6.82% of Go online submissions for Maximum Subarray.&#10;Memory Usage: 9.9 MB, less than 15.78% of Go online submissions for Maximum Subarray." />
+    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for 2 Keys Keyboard.&#10;Memory Usage: 2.1 MB, less than 70.59% of Go online submissions for 2 Keys Keyboard." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 0 ms, faster than 100.00% of Go online submissions for 2 Keys Keyboard.&#10;Memory Usage: 2.1 MB, less than 70.59% of Go online submissions for 2 Keys Keyboard." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -232,14 +232,14 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/650_2_Keys_Keyboard.go</url>
-          <line>8</line>
-          <option name="timeStamp" value="40" />
+          <url>file://$PROJECT_DIR$/62_Unique_Paths.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/650_2_Keys_Keyboard.go</url>
-          <line>10</line>
-          <option name="timeStamp" value="41" />
+          <url>file://$PROJECT_DIR$/62_Unique_Paths.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
