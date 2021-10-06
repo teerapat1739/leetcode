@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 0 ms, faster than 100.00% of Go online submissions for 2 Keys Keyboard.&#10;Memory Usage: 2.1 MB, less than 70.59% of Go online submissions for 2 Keys Keyboard.">
-      <change afterPath="$PROJECT_DIR$/62_Unique_Paths.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62_Unique_Paths_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/553_Optimal_Division.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/553_Optimal_Division_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +53,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_uniquePaths/case_1 in leetcode-everyday">
-    <configuration name="Test_minSteps/case_5 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_optimalDivision/case_4 in leetcode-everyday">
+    <configuration name="Test_optimalDivision/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -62,10 +62,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_minSteps\E$/^\Qcase_5\E$" />
+      <pattern value="^\QTest_optimalDivision\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_minSteps/case_6 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_optimalDivision/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -73,10 +73,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_minSteps\E$/^\Qcase_6\E$" />
+      <pattern value="^\QTest_optimalDivision\E$/^\Qcase_2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_minSteps/case_6#01 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_optimalDivision/case_3 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -84,7 +84,18 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_minSteps\E$/^\Qcase_6#01\E$" />
+      <pattern value="^\QTest_optimalDivision\E$/^\Qcase_3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_optimalDivision/case_4 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_optimalDivision\E$/^\Qcase_4\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_uniquePaths/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -98,24 +109,13 @@
       <pattern value="^\QTest_uniquePaths\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_uniquePaths/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_uniquePaths\E$/^\Qcase_2\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_optimalDivision/case_4 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_optimalDivision/case_3 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_optimalDivision/case_2 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_optimalDivision/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_uniquePaths/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_uniquePaths/case_2 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_minSteps/case_6#01 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_minSteps/case_6 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_minSteps/case_5 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -233,13 +233,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/62_Unique_Paths.go</url>
-          <line>25</line>
+          <line>28</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/62_Unique_Paths.go</url>
-          <line>21</line>
+          <line>24</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/553_Optimal_Division.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
