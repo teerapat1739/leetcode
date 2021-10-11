@@ -84,5 +84,5 @@ func expand(s string, start, end int) int {
 		start--
 		end++
 	}
-	return end - start  - 1
+	return end - start - 1
 }
