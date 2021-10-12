@@ -36,9 +36,63 @@ func sum(n int, memo []int) int {
 //4
 
 /*
+1
+
+1+1
+2
+
+1+1+1
+1+2
+2+1
+
+
 1+1+1+1
 1+1+2
 1+2+1
 2+1+1
 2+2
+
+
+1+1+1+1+1
+1+1+1+2
+1+1+2+1
+1+2+1+1
+2+1+1+1
+2+2+1
+2+1+2
+1+2+2
+
+
+1+1+1+1+1+1
+1+1+1+1+2
+1+1+1+2+1
+1+1+2+1+1
+1+2+1+1+1
+2+1+1+1+1
+1+2+2+1
+1+2+1+2
+1+1+2+2
+2+1+1+2
+2+1+2+1
+2+2+1+1
+2+2+2
 */
+
+// dp solution
+/*
+Runtime: 0 ms, faster than 100.00% of Go online submissions for Climbing Stairs.
+Memory Usage: 2 MB, less than 36.46% of Go online submissions for Climbing Stairs.
+*/
+func climbStairs3(n int) int {
+	dp := make([]int, n)
+	if n <= 1 {
+		return 1
+	}
+	dp[0] = 1
+	dp[1] = 1
+
+	for i := 2; i < n; i++ {
+		dp[i] = dp[i-1] + dp[i-2]
+	}
+	return dp[n-1] + dp[n-2]
+}

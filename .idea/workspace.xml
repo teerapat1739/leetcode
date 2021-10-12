@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 4 ms, faster than 99.66% of Go online submissions for Minimum Path Sum.&#10;Memory Usage: 4.4 MB, less than 62.75% of Go online submissions for Minimum Path Sum.">
-      <change afterPath="$PROJECT_DIR$/63_Unique_Paths_II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/63_Unique_Paths_II_test.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 0 ms, faster than 100.00% of Go online submissions for Unique Paths II.&#10;Memory Usage: 2.7 MB, less than 39.56% of Go online submissions for Unique Paths II.">
+      <change afterPath="$PROJECT_DIR$/746_Min_Cost_Climbing_Stairs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/746_Min_Cost_Climbing_Stairs_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/70_Climbing_Stairs.go" beforeDir="false" afterPath="$PROJECT_DIR$/70_Climbing_Stairs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/70_Climbing_Stairs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/70_Climbing_Stairs_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +55,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_uniquePathsWithObstacles/case_1 in leetcode-everyday">
-    <configuration name="Test_longestPalindrome/case_13 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_minCostClimbingStairs/case_2 in leetcode-everyday">
+    <configuration name="Test_climbStairs/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -62,10 +64,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_longestPalindrome\E$/^\Qcase_13\E$" />
+      <pattern value="^\QTest_climbStairs\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_longestPalindrome/case_6 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_climbStairs/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -73,10 +75,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_longestPalindrome\E$/^\Qcase_6\E$" />
+      <pattern value="^\QTest_climbStairs\E$/^\Qcase_2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_minPathSum/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_climbStairs/case_5 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -84,10 +86,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_minPathSum\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_climbStairs\E$/^\Qcase_5\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_stoneGame/case_4 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_minCostClimbingStairs/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -95,10 +97,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_stoneGame\E$/^\Qcase_4\E$" />
+      <pattern value="^\QTest_minCostClimbingStairs\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_uniquePathsWithObstacles/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_minCostClimbingStairs/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -106,16 +108,16 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_uniquePathsWithObstacles\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_minCostClimbingStairs\E$/^\Qcase_2\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_uniquePathsWithObstacles/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_minPathSum/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_longestPalindrome/case_13 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_longestPalindrome/case_6 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_stoneGame/case_4 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_minCostClimbingStairs/case_2 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_minCostClimbingStairs/case_1 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_climbStairs/case_5 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_climbStairs/case_2 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_climbStairs/case_1 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +148,8 @@
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Optimal Division.&#10;Memory Usage: 2.1 MB, less than 33.33% of Go online submissions for Optimal Division." />
     <MESSAGE value="poc" />
     <MESSAGE value="Runtime: 4 ms, faster than 99.66% of Go online submissions for Minimum Path Sum.&#10;Memory Usage: 4.4 MB, less than 62.75% of Go online submissions for Minimum Path Sum." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 4 ms, faster than 99.66% of Go online submissions for Minimum Path Sum.&#10;Memory Usage: 4.4 MB, less than 62.75% of Go online submissions for Minimum Path Sum." />
+    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Unique Paths II.&#10;Memory Usage: 2.7 MB, less than 39.56% of Go online submissions for Unique Paths II." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Unique Paths II.&#10;Memory Usage: 2.7 MB, less than 39.56% of Go online submissions for Unique Paths II." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -228,6 +231,11 @@
           <url>file://$PROJECT_DIR$/63_Unique_Paths_II.go</url>
           <line>6</line>
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/746_Min_Cost_Climbing_Stairs.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
