@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 0 ms, faster than 100.00% of Go online submissions for House Robber.&#10;Memory Usage: 2.1 MB, less than 36.93% of Go online submissions for House Robber.">
-      <change afterPath="$PROJECT_DIR$/213_House_Robber_II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/213_House_Robber_II_test.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 0 ms, faster than 100.00% of Go online submissions for House Robber II.&#10;Memory Usage: 2.1 MB, less than 67.39% of Go online submissions for House Robber II.">
+      <change afterPath="$PROJECT_DIR$/740_Delete_and_Earn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/740_Delete_and_Earn_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +53,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_robII/case_3 in leetcode-everyday">
-    <configuration name="Test_rob in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_deleteAndEarn in leetcode-everyday">
+    <configuration name="Test_deleteAndEarn in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -62,10 +62,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_rob\E$" />
+      <pattern value="^\QTest_deleteAndEarn\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_robII/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_deleteAndEarn/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -73,10 +73,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_robII\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_deleteAndEarn\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_robII/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_deleteAndEarn/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -84,7 +84,18 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_robII\E$/^\Qcase_2\E$" />
+      <pattern value="^\QTest_deleteAndEarn\E$/^\Qcase_2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_deleteAndEarn/case_3 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_deleteAndEarn\E$/^\Qcase_3\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_robII/case_3 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -98,24 +109,13 @@
       <pattern value="^\QTest_robII\E$/^\Qcase_3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_rob/case_4 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_rob\E$/^\Qcase_4\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_deleteAndEarn in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_deleteAndEarn/case_3 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_deleteAndEarn/case_1 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_deleteAndEarn/case_2 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_robII/case_3 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_robII/case_2 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_robII/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_rob in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_rob/case_4 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,8 @@
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Unique Paths II.&#10;Memory Usage: 2.7 MB, less than 39.56% of Go online submissions for Unique Paths II." />
     <MESSAGE value="&#10;Runtime: 0 ms, faster than 100.00% of Go online submissions for Min Cost Climbing Stairs.&#10;Memory Usage: 3.2 MB, less than 30.57% of Go online submissions for Min Cost Climbing Stairs." />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for House Robber.&#10;Memory Usage: 2.1 MB, less than 36.93% of Go online submissions for House Robber." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 0 ms, faster than 100.00% of Go online submissions for House Robber.&#10;Memory Usage: 2.1 MB, less than 36.93% of Go online submissions for House Robber." />
+    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for House Robber II.&#10;Memory Usage: 2.1 MB, less than 67.39% of Go online submissions for House Robber II." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 0 ms, faster than 100.00% of Go online submissions for House Robber II.&#10;Memory Usage: 2.1 MB, less than 67.39% of Go online submissions for House Robber II." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -231,6 +232,16 @@
           <url>file://$PROJECT_DIR$/63_Unique_Paths_II.go</url>
           <line>6</line>
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/740_Delete_and_Earn.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/740_Delete_and_Earn.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
