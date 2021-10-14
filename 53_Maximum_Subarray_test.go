@@ -20,10 +20,19 @@ func Test_maxSubArray(t *testing.T) {
 			},
 			want: 6,
 		},
+		{
+			name: "case 2",
+			args: args{
+				nums: []int{
+					5, -3, 5,
+				},
+			},
+			want: 7,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := maxSubArray(tt.args.nums); got != tt.want {
+			if got := maxSubArray2(tt.args.nums); got != tt.want {
 				t.Errorf("maxSubArray() = %v, want %v", got, tt.want)
 			}
 		})
