@@ -14,7 +14,7 @@ func Test_maxScoreSightseeingPair(t *testing.T) {
 		{
 			name: "example1",
 			args: args{
-				values: []int{8, 1, 5, 10, 2, 6},
+				values: []int{8, 1, 5, 2, 6},
 			},
 			want: 11,
 		},
