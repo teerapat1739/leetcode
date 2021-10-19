@@ -28,3 +28,24 @@ func wordBreak(s string, wordDict []string) bool {
 
 	return dp[len(dp)-1]
 }
+
+func wordBreak2(s string, wordDict []string) bool {
+	dp := make([]bool, len(s)+1)
+	dp[0] = true
+
+	mapWordDict := make(map[string]bool)
+	for _, s2 := range wordDict {
+		mapWordDict[s2] = true
+	}
+
+	for i := 1; i < len(s); i++ {
+		for j := 0; j < i; j++ {
+			substr := s[j:i]
+			if mapWordDict[substr] && dp[j] {
+				dp[i] = true
+				break
+			}
+		}
+	}
+	return dp[len(dp)-1]
+}

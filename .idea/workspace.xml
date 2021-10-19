@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 171 ms, faster than 22.06% of Go online submissions for Maximum Length of Subarray With Positive Product.&#10;Memory Usage: 10.6 MB, less than 35.29% of Go online submissions for Maximum Length of Subarray With Positive Product.">
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 128 ms, faster than 42.50% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.&#10;Memory Usage: 11.5 MB, less than 9.17% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.">
+      <change afterPath="$PROJECT_DIR$/309. Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/309. Best_Time_to_Buy_and_Sell_Stock_with_Cooldown_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/496_Next Greater_Element_I.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/496_Next_Greater_Element_I.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/496_Next_Greater_Element_I_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoexpert/TwoNumberSum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoexpert/Validate_Subsequence.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoexpert/Validate_Subsequence_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poc/timena/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1014_Best_Sightseeing_Pair.go" beforeDir="false" afterPath="$PROJECT_DIR$/1014_Best_Sightseeing_Pair.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1014_Best_Sightseeing_Pair_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/1014_Best_Sightseeing_Pair_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/121_Best_Time_to_Buy_and_Sell_Stock.go" beforeDir="false" afterPath="$PROJECT_DIR$/121_Best_Time_to_Buy_and_Sell_Stock.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/122_Best_Time_to_Buy_and Sell_Stock_II.go" beforeDir="false" afterPath="$PROJECT_DIR$/122_Best_Time_to_Buy_and Sell_Stock_II.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/139_Word_Break.go" beforeDir="false" afterPath="$PROJECT_DIR$/139_Word_Break.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.go" beforeDir="false" afterPath="$PROJECT_DIR$/714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,30 +62,29 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_maxProfitWithFree in leetcode-everyday">
-    <configuration name="Test_maxProfitWithFree in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_nextGreaterElement/case_1 in leetcode-everyday">
+    <configuration name="go build leetcode-everyday/poc/timena" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
+      <package value="leetcode-everyday/poc/timena" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_maxProfitWithFree\E$" />
+      <filePath value="$PROJECT_DIR$/poc/timena/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_maxProfitWithFree/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestIsValidSubsequence/case_1 in leetcode-everyday/algoexpert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/algoexpert" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
+      <package value="leetcode-everyday/algoexpert" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_maxProfitWithFree\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTestIsValidSubsequence\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_maxProfitWithFree/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_maxProfitWithCoolDown/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -88,10 +92,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_maxProfitWithFree\E$/^\Qcase_2\E$" />
+      <pattern value="^\QTest_maxProfitWithCoolDown\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_maxProfitWithFree/case_3 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_nextGreaterElement/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -99,10 +103,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_maxProfitWithFree\E$/^\Qcase_3\E$" />
+      <pattern value="^\QTest_nextGreaterElement\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_maxScoreSightseeingPair/example1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_wordBreak/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -110,16 +114,16 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_maxScoreSightseeingPair\E$/^\Qexample1\E$" />
+      <pattern value="^\QTest_wordBreak\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_maxProfitWithFree in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_maxProfitWithFree/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_maxProfitWithFree/case_2 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_maxProfitWithFree/case_3 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_maxScoreSightseeingPair/example1 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_nextGreaterElement/case_1 in leetcode-everyday" />
+        <item itemvalue="Go Test.TestIsValidSubsequence/case_1 in leetcode-everyday/algoexpert" />
+        <item itemvalue="Go Build.go build leetcode-everyday/poc/timena" />
+        <item itemvalue="Go Test.Test_wordBreak/case_1 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_maxProfitWithCoolDown/case_1 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +163,8 @@
     <MESSAGE value="Runtime: 60 ms, faster than 59.42% of Go online submissions for Maximum Sum Circular Subarray.&#10;Memory Usage: 7.4 MB, less than 100.00% of Go online submissions for Maximum Sum Circular Subarray." />
     <MESSAGE value="Runtime: 4 ms, faster than 56.93% of Go online submissions for Maximum Product Subarray.&#10;Memory Usage: 2.8 MB, less than 46.69% of Go online submissions for Maximum Product Subarray." />
     <MESSAGE value="Runtime: 171 ms, faster than 22.06% of Go online submissions for Maximum Length of Subarray With Positive Product.&#10;Memory Usage: 10.6 MB, less than 35.29% of Go online submissions for Maximum Length of Subarray With Positive Product." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 171 ms, faster than 22.06% of Go online submissions for Maximum Length of Subarray With Positive Product.&#10;Memory Usage: 10.6 MB, less than 35.29% of Go online submissions for Maximum Length of Subarray With Positive Product." />
+    <MESSAGE value="Runtime: 128 ms, faster than 42.50% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.&#10;Memory Usage: 11.5 MB, less than 9.17% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 128 ms, faster than 42.50% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.&#10;Memory Usage: 11.5 MB, less than 9.17% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -259,8 +264,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.go</url>
-          <line>32</line>
+          <line>30</line>
           <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/309. Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.go</url>
+          <line>47</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/139_Word_Break.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algoexpert/Validate_Subsequence.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

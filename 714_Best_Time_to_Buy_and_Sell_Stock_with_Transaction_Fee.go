@@ -46,16 +46,17 @@ func maxProfitWithFreeII(prices []int, fee int) int {
 /*
 dp solution
 
-case 1: I don't have stock on day i. Represent by dp[i][0], select max of the below:
-	- case 1: I sold the stock today
-			dp[i][0] = dp[i-1][i] + price[i]
-	- case 2: I sold a stock at some previous day. Doing nothing today.
-			dp[i][0] = dp[i-1][0]
-case 2: I have stock on day i Represented by dp[i][1], select max of the below:
+case 1: I have stock on day i Represented by dp[i][1], select max of the below:
 	- case 1: I bought it today
 			dp[i][1] = dp[i-1][0] - price[i] - fee
 	- case 2: I am carrying a pre-bought stock. Doing nothing today.
 			dp[i][1] = dp[i-1][1]
+case 2: I don't have stock on day i. Represent by dp[i][0], select max of the below:
+	- case 1: I sold the stock today
+			dp[i][0] = dp[i-1][i] + price[i]
+	- case 2: I sold a stock at some previous day. Doing nothing today.
+			dp[i][0] = dp[i-1][0]
+
 */
 
 func maxProfitWithFreeIII(prices []int, fee int) int {
