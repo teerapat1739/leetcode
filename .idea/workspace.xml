@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 140 ms, faster than 83.60% of Go online submissions for Daily Temperatures.&#10;Memory Usage: 9.8 MB, less than 59.79% of Go online submissions for Daily Temperatures.">
-      <change afterPath="$PROJECT_DIR$/151_Reverse_Words_in_a_String.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/151_Reverse_Words_in_a_String_test.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="&#10;Runtime: 6 ms, faster than 20.13% of Go online submissions for Reverse Words in a String.&#10;Memory Usage: 8.5 MB, less than 8.80% of Go online submissions for Reverse Words in a String.">
+      <change afterPath="$PROJECT_DIR$/algoexpert/Sorted_Squared_Array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoexpert/Sorted_Squared_Array_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,31 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_reverseWords in leetcode-everyday">
+  <component name="RunManager" selected="Go Test.TestSortedSquaredArray/case_2 in leetcode-everyday/algoexpert">
+    <configuration name="TestSortedSquaredArray/case_1 in leetcode-everyday/algoexpert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/algoexpert" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday/algoexpert" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSortedSquaredArray\E$/^\Qcase_1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSortedSquaredArray/case_2 in leetcode-everyday/algoexpert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/algoexpert" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday/algoexpert" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSortedSquaredArray\E$/^\Qcase_2\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_reverseWords in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -77,28 +101,6 @@
       <pattern value="^\QTest_reverseWords\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_reverseWords/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_reverseWords\E$/^\Qcase_2\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_reverseWords/case_3 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_reverseWords\E$/^\Qcase_3\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test_reverseWords/case_4 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -112,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSortedSquaredArray/case_2 in leetcode-everyday/algoexpert" />
+        <item itemvalue="Go Test.TestSortedSquaredArray/case_1 in leetcode-everyday/algoexpert" />
         <item itemvalue="Go Test.Test_reverseWords in leetcode-everyday" />
         <item itemvalue="Go Test.Test_reverseWords/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_reverseWords/case_4 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_reverseWords/case_3 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_reverseWords/case_2 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +161,8 @@
     <MESSAGE value="Runtime: 128 ms, faster than 42.50% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.&#10;Memory Usage: 11.5 MB, less than 9.17% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee." />
     <MESSAGE value="done many questions" />
     <MESSAGE value="Runtime: 140 ms, faster than 83.60% of Go online submissions for Daily Temperatures.&#10;Memory Usage: 9.8 MB, less than 59.79% of Go online submissions for Daily Temperatures." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 140 ms, faster than 83.60% of Go online submissions for Daily Temperatures.&#10;Memory Usage: 9.8 MB, less than 59.79% of Go online submissions for Daily Temperatures." />
+    <MESSAGE value="&#10;Runtime: 6 ms, faster than 20.13% of Go online submissions for Reverse Words in a String.&#10;Memory Usage: 8.5 MB, less than 8.80% of Go online submissions for Reverse Words in a String." />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Runtime: 6 ms, faster than 20.13% of Go online submissions for Reverse Words in a String.&#10;Memory Usage: 8.5 MB, less than 8.80% of Go online submissions for Reverse Words in a String." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -284,7 +287,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/151_Reverse_Words_in_a_String.go</url>
-          <line>10</line>
+          <line>2</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
