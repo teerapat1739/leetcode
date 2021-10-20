@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="done many questions">
-      <change afterPath="$PROJECT_DIR$/739_Daily_Temperatures.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/739_Daily_Temperatures_test.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 140 ms, faster than 83.60% of Go online submissions for Daily Temperatures.&#10;Memory Usage: 9.8 MB, less than 59.79% of Go online submissions for Daily Temperatures.">
+      <change afterPath="$PROJECT_DIR$/151_Reverse_Words_in_a_String.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/151_Reverse_Words_in_a_String_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,29 +54,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_dailyTemperatures in leetcode-everyday">
-    <configuration name="go build leetcode-everyday/poc/timena" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday/poc/timena" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/poc/timena/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestIsValidSubsequence/case_1 in leetcode-everyday/algoexpert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/algoexpert" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday/algoexpert" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestIsValidSubsequence\E$/^\Qcase_1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_dailyTemperatures in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_reverseWords in leetcode-everyday">
+    <configuration name="Test_reverseWords in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -84,10 +63,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_dailyTemperatures\E$" />
+      <pattern value="^\QTest_reverseWords\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_dailyTemperatures/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_reverseWords/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -95,10 +74,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_dailyTemperatures\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_reverseWords\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_nextGreaterElement/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_reverseWords/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -106,16 +85,38 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_nextGreaterElement\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_reverseWords\E$/^\Qcase_2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_reverseWords/case_3 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_reverseWords\E$/^\Qcase_3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_reverseWords/case_4 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_reverseWords\E$/^\Qcase_4\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_dailyTemperatures in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_dailyTemperatures/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_nextGreaterElement/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.TestIsValidSubsequence/case_1 in leetcode-everyday/algoexpert" />
-        <item itemvalue="Go Build.go build leetcode-everyday/poc/timena" />
+        <item itemvalue="Go Test.Test_reverseWords in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_reverseWords/case_1 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_reverseWords/case_4 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_reverseWords/case_3 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_reverseWords/case_2 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +158,8 @@
     <MESSAGE value="Runtime: 171 ms, faster than 22.06% of Go online submissions for Maximum Length of Subarray With Positive Product.&#10;Memory Usage: 10.6 MB, less than 35.29% of Go online submissions for Maximum Length of Subarray With Positive Product." />
     <MESSAGE value="Runtime: 128 ms, faster than 42.50% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.&#10;Memory Usage: 11.5 MB, less than 9.17% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee." />
     <MESSAGE value="done many questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="done many questions" />
+    <MESSAGE value="Runtime: 140 ms, faster than 83.60% of Go online submissions for Daily Temperatures.&#10;Memory Usage: 9.8 MB, less than 59.79% of Go online submissions for Daily Temperatures." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 140 ms, faster than 83.60% of Go online submissions for Daily Temperatures.&#10;Memory Usage: 9.8 MB, less than 59.79% of Go online submissions for Daily Temperatures." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -277,8 +279,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/739_Daily_Temperatures.go</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/151_Reverse_Words_in_a_String.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
