@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 128 ms, faster than 42.50% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.&#10;Memory Usage: 11.5 MB, less than 9.17% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.">
-      <change afterPath="$PROJECT_DIR$/309. Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/309. Best_Time_to_Buy_and_Sell_Stock_with_Cooldown_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/496_Next Greater_Element_I.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/496_Next_Greater_Element_I.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/496_Next_Greater_Element_I_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoexpert/TwoNumberSum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoexpert/Validate_Subsequence.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algoexpert/Validate_Subsequence_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poc/timena/main.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="done many questions">
+      <change afterPath="$PROJECT_DIR$/739_Daily_Temperatures.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/739_Daily_Temperatures_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/139_Word_Break.go" beforeDir="false" afterPath="$PROJECT_DIR$/139_Word_Break.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.go" beforeDir="false" afterPath="$PROJECT_DIR$/714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go Application" />
         <option value="Go File" />
       </list>
     </option>
@@ -48,7 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -62,7 +54,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_nextGreaterElement/case_1 in leetcode-everyday">
+  <component name="RunManager" selected="Go Test.Test_dailyTemperatures in leetcode-everyday">
     <configuration name="go build leetcode-everyday/poc/timena" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -84,7 +76,7 @@
       <pattern value="^\QTestIsValidSubsequence\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_maxProfitWithCoolDown/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_dailyTemperatures in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -92,7 +84,18 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_maxProfitWithCoolDown\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_dailyTemperatures\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_dailyTemperatures/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_dailyTemperatures\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_nextGreaterElement/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -106,24 +109,13 @@
       <pattern value="^\QTest_nextGreaterElement\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_wordBreak/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_wordBreak\E$/^\Qcase_1\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_dailyTemperatures in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_dailyTemperatures/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_nextGreaterElement/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.TestIsValidSubsequence/case_1 in leetcode-everyday/algoexpert" />
         <item itemvalue="Go Build.go build leetcode-everyday/poc/timena" />
-        <item itemvalue="Go Test.Test_wordBreak/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_maxProfitWithCoolDown/case_1 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +156,8 @@
     <MESSAGE value="Runtime: 4 ms, faster than 56.93% of Go online submissions for Maximum Product Subarray.&#10;Memory Usage: 2.8 MB, less than 46.69% of Go online submissions for Maximum Product Subarray." />
     <MESSAGE value="Runtime: 171 ms, faster than 22.06% of Go online submissions for Maximum Length of Subarray With Positive Product.&#10;Memory Usage: 10.6 MB, less than 35.29% of Go online submissions for Maximum Length of Subarray With Positive Product." />
     <MESSAGE value="Runtime: 128 ms, faster than 42.50% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.&#10;Memory Usage: 11.5 MB, less than 9.17% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 128 ms, faster than 42.50% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.&#10;Memory Usage: 11.5 MB, less than 9.17% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee." />
+    <MESSAGE value="done many questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="done many questions" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -269,7 +262,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/309. Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.go</url>
-          <line>47</line>
+          <line>44</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
@@ -281,6 +274,11 @@
           <url>file://$PROJECT_DIR$/algoexpert/Validate_Subsequence.go</url>
           <line>6</line>
           <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/739_Daily_Temperatures.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
