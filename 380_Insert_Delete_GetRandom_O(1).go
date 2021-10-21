@@ -13,7 +13,7 @@ type RandomizedSet struct {
 	Obj    []int
 }
 
-func Constructor() RandomizedSet {
+func Constructor380() RandomizedSet {
 	return RandomizedSet{Obj: []int{}, ObjMap: make(map[int]int)}
 }
 

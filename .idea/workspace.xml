@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="SortedSquaredArray with time complexity o(n) also space complexity">
-      <change afterPath="$PROJECT_DIR$/380_Insert_Delete_GetRandom_O(1).go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 180 ms, faster than 64.25% of Go online submissions for Insert Delete GetRandom O(1).&#10;Memory Usage: 50.2 MB, less than 74.30% of Go online submissions for Insert Delete GetRandom O(1).">
+      <change afterPath="$PROJECT_DIR$/901_Online_Stock_Span.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/139. Word Break.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/380_Insert_Delete_GetRandom_O(1).go" beforeDir="false" afterPath="$PROJECT_DIR$/380_Insert_Delete_GetRandom_O(1).go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +183,8 @@
     <MESSAGE value="Runtime: 140 ms, faster than 83.60% of Go online submissions for Daily Temperatures.&#10;Memory Usage: 9.8 MB, less than 59.79% of Go online submissions for Daily Temperatures." />
     <MESSAGE value="&#10;Runtime: 6 ms, faster than 20.13% of Go online submissions for Reverse Words in a String.&#10;Memory Usage: 8.5 MB, less than 8.80% of Go online submissions for Reverse Words in a String." />
     <MESSAGE value="SortedSquaredArray with time complexity o(n) also space complexity" />
-    <option name="LAST_COMMIT_MESSAGE" value="SortedSquaredArray with time complexity o(n) also space complexity" />
+    <MESSAGE value="Runtime: 180 ms, faster than 64.25% of Go online submissions for Insert Delete GetRandom O(1).&#10;Memory Usage: 50.2 MB, less than 74.30% of Go online submissions for Insert Delete GetRandom O(1)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 180 ms, faster than 64.25% of Go online submissions for Insert Delete GetRandom O(1).&#10;Memory Usage: 50.2 MB, less than 74.30% of Go online submissions for Insert Delete GetRandom O(1)." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -298,11 +301,6 @@
           <url>file://$PROJECT_DIR$/algoexpert/Validate_Subsequence.go</url>
           <line>6</line>
           <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/739_Daily_Temperatures.go</url>
-          <line>13</line>
-          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/151_Reverse_Words_in_a_String.go</url>
