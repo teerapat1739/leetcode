@@ -13,7 +13,7 @@ func (q *Queue) Enqueue(item int) {
 }
 
 // Dequeue removes the integer at the front of the queue
-// and RETURNs the removed integer
+// and RETURNNs the removed integer
 func (q *Queue) Dequeue() int {
 	if len(q.item) == 0 {
 		return 0
