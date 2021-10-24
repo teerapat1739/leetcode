@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 17 ms, faster than 49.34% of Go online submissions for Count Complete Tree Nodes.&#10;Memory Usage: 7.5 MB, less than 38.82% of Go online submissions for Count Complete Tree Nodes.">
-      <change afterPath="$PROJECT_DIR$/algoexpert/NonConstructibleChange.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="NonConstructibleChange">
+      <change afterPath="$PROJECT_DIR$/1636_Sort_Array_by_Increasing_Frequency.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1636_Sort_Array_by_Increasing_Frequency_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_firstUniqChar/case_3 in leetcode-everyday">
+  <component name="RunManager" selected="Go Test.Test_frequencySort1636/case_1 in leetcode-everyday">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_firstUniqChar/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -87,7 +97,7 @@
       <pattern value="^\QTest_firstUniqChar\E$/^\Qcase_3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_frequencySort/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_frequencySort1636/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -95,7 +105,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_frequencySort\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_frequencySort1636\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_frequencySort/case_3 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -109,13 +119,23 @@
       <pattern value="^\QTest_frequencySort\E$/^\Qcase_3\E$" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_frequencySort1636/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_firstUniqChar/case_3 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_firstUniqChar/case_2 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_firstUniqChar/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_frequencySort/case_3 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_frequencySort/case_1 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +156,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Runtime: 108 ms, faster than 6.82% of Go online submissions for Maximum Subarray.&#10;Memory Usage: 9.9 MB, less than 15.78% of Go online submissions for Maximum Subarray." />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for 2 Keys Keyboard.&#10;Memory Usage: 2.1 MB, less than 70.59% of Go online submissions for 2 Keys Keyboard." />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Optimal Division.&#10;Memory Usage: 2.1 MB, less than 33.33% of Go online submissions for Optimal Division." />
     <MESSAGE value="poc" />
@@ -161,7 +180,8 @@
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Sort Characters By Frequency.&#10;Memory Usage: 7.7 MB, less than 17.35% of Go online submissions for Sort Characters By Frequency." />
     <MESSAGE value="Runtime: 9 ms, faster than 77.14% of Go online submissions for First Unique Character in a String.&#10;Memory Usage: 5.7 MB, less than 40.71% of Go online submissions for First Unique Character in a String." />
     <MESSAGE value="Runtime: 17 ms, faster than 49.34% of Go online submissions for Count Complete Tree Nodes.&#10;Memory Usage: 7.5 MB, less than 38.82% of Go online submissions for Count Complete Tree Nodes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 17 ms, faster than 49.34% of Go online submissions for Count Complete Tree Nodes.&#10;Memory Usage: 7.5 MB, less than 38.82% of Go online submissions for Count Complete Tree Nodes." />
+    <MESSAGE value="NonConstructibleChange" />
+    <option name="LAST_COMMIT_MESSAGE" value="NonConstructibleChange" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
