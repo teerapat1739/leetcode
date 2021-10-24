@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 9 ms, faster than 77.14% of Go online submissions for First Unique Character in a String.&#10;Memory Usage: 5.7 MB, less than 40.71% of Go online submissions for First Unique Character in a String.">
-      <change afterPath="$PROJECT_DIR$/222_Count_Complete_Tree_Nodes.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 17 ms, faster than 49.34% of Go online submissions for Count Complete Tree Nodes.&#10;Memory Usage: 7.5 MB, less than 38.82% of Go online submissions for Count Complete Tree Nodes.">
+      <change afterPath="$PROJECT_DIR$/algoexpert/NonConstructibleChange.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +136,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;Runtime: 0 ms, faster than 100.00% of Go online submissions for Is Subsequence.&#10;Memory Usage: 2 MB, less than 51.98% of Go online submissions for Is Subsequence." />
     <MESSAGE value="Runtime: 108 ms, faster than 6.82% of Go online submissions for Maximum Subarray.&#10;Memory Usage: 9.9 MB, less than 15.78% of Go online submissions for Maximum Subarray." />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for 2 Keys Keyboard.&#10;Memory Usage: 2.1 MB, less than 70.59% of Go online submissions for 2 Keys Keyboard." />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Optimal Division.&#10;Memory Usage: 2.1 MB, less than 33.33% of Go online submissions for Optimal Division." />
@@ -161,7 +160,8 @@
     <MESSAGE value="TournamentWinner" />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Sort Characters By Frequency.&#10;Memory Usage: 7.7 MB, less than 17.35% of Go online submissions for Sort Characters By Frequency." />
     <MESSAGE value="Runtime: 9 ms, faster than 77.14% of Go online submissions for First Unique Character in a String.&#10;Memory Usage: 5.7 MB, less than 40.71% of Go online submissions for First Unique Character in a String." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 9 ms, faster than 77.14% of Go online submissions for First Unique Character in a String.&#10;Memory Usage: 5.7 MB, less than 40.71% of Go online submissions for First Unique Character in a String." />
+    <MESSAGE value="Runtime: 17 ms, faster than 49.34% of Go online submissions for Count Complete Tree Nodes.&#10;Memory Usage: 7.5 MB, less than 38.82% of Go online submissions for Count Complete Tree Nodes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 17 ms, faster than 49.34% of Go online submissions for Count Complete Tree Nodes.&#10;Memory Usage: 7.5 MB, less than 38.82% of Go online submissions for Count Complete Tree Nodes." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
