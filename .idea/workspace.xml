@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 0 ms, faster than 100.00% of Go online submissions for Sort Array by Increasing Frequency.&#10;Memory Usage: 3.1 MB, less than 76.19% of Go online submissions for Sort Array by Increasing Frequency.">
-      <change afterPath="$PROJECT_DIR$/482_License_Key_Formatting.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/482_License_Key_Formatting_test.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 691 ms, faster than 19.05% of Go online submissions for License Key Formatting.&#10;Memory Usage: 40.2 MB, less than 7.14% of Go online submissions for License Key Formatting.">
+      <change afterPath="$PROJECT_DIR$/155_Min_Stack.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +136,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Optimal Division.&#10;Memory Usage: 2.1 MB, less than 33.33% of Go online submissions for Optimal Division." />
     <MESSAGE value="poc" />
     <MESSAGE value="Runtime: 4 ms, faster than 99.66% of Go online submissions for Minimum Path Sum.&#10;Memory Usage: 4.4 MB, less than 62.75% of Go online submissions for Minimum Path Sum." />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Unique Paths II.&#10;Memory Usage: 2.7 MB, less than 39.56% of Go online submissions for Unique Paths II." />
@@ -162,7 +160,8 @@
     <MESSAGE value="Runtime: 17 ms, faster than 49.34% of Go online submissions for Count Complete Tree Nodes.&#10;Memory Usage: 7.5 MB, less than 38.82% of Go online submissions for Count Complete Tree Nodes." />
     <MESSAGE value="NonConstructibleChange" />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Sort Array by Increasing Frequency.&#10;Memory Usage: 3.1 MB, less than 76.19% of Go online submissions for Sort Array by Increasing Frequency." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Sort Array by Increasing Frequency.&#10;Memory Usage: 3.1 MB, less than 76.19% of Go online submissions for Sort Array by Increasing Frequency." />
+    <MESSAGE value="Runtime: 691 ms, faster than 19.05% of Go online submissions for License Key Formatting.&#10;Memory Usage: 40.2 MB, less than 7.14% of Go online submissions for License Key Formatting." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 691 ms, faster than 19.05% of Go online submissions for License Key Formatting.&#10;Memory Usage: 40.2 MB, less than 7.14% of Go online submissions for License Key Formatting." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -292,7 +291,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/482_License_Key_Formatting.go</url>
-          <line>14</line>
+          <line>9</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
