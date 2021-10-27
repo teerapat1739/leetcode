@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="MinStack">
-      <change afterPath="$PROJECT_DIR$/242_Valid_Anagram.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/242_Valid_Anagram_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/49_Group_Anagrams.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/49_Group_Anagrams_test.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 8 ms, faster than 98.96% of Go online submissions for Employee Importance.&#10;Memory Usage: 6.8 MB, less than 87.50% of Go online submissions for Employee Importance.">
+      <change afterPath="$PROJECT_DIR$/75_Sort_Colors.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/515_Find_Largest_Value_in_Each_Tree_Row.go" beforeDir="false" afterPath="$PROJECT_DIR$/515_Find_Largest_Value_in_Each_Tree_Row.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +54,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_groupAnagrams/case_1 in leetcode-everyday">
-    <configuration name="Test_frequencySort1636/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_findAnagrams438/case_2 in leetcode-everyday">
+    <configuration name="Test_findAnagrams438/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -65,7 +63,18 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_frequencySort1636\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_findAnagrams438\E$/^\Qcase_1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_findAnagrams438/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_findAnagrams438\E$/^\Qcase_2\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_groupAnagrams/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -101,24 +110,13 @@
       <pattern value="^\QTest_isAnagram\E$/^\Qcase_2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_licenseKeyFormatting/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_licenseKeyFormatting\E$/^\Qcase_1\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_findAnagrams438/case_2 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_findAnagrams438/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_groupAnagrams/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_isAnagram/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_isAnagram/case_2 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_licenseKeyFormatting/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_frequencySort1636/case_1 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -139,11 +137,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Runtime: 4 ms, faster than 99.66% of Go online submissions for Minimum Path Sum.&#10;Memory Usage: 4.4 MB, less than 62.75% of Go online submissions for Minimum Path Sum." />
-    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Unique Paths II.&#10;Memory Usage: 2.7 MB, less than 39.56% of Go online submissions for Unique Paths II." />
-    <MESSAGE value="&#10;Runtime: 0 ms, faster than 100.00% of Go online submissions for Min Cost Climbing Stairs.&#10;Memory Usage: 3.2 MB, less than 30.57% of Go online submissions for Min Cost Climbing Stairs." />
-    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for House Robber.&#10;Memory Usage: 2.1 MB, less than 36.93% of Go online submissions for House Robber." />
-    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for House Robber II.&#10;Memory Usage: 2.1 MB, less than 67.39% of Go online submissions for House Robber II." />
     <MESSAGE value="Runtime: 4 ms, faster than 93.21% of Go online submissions for Delete and Earn.&#10;Memory Usage: 3.7 MB, less than 75.31% of Go online submissions for Delete and Earn." />
     <MESSAGE value="use kadane's algorithm" />
     <MESSAGE value="Runtime: 60 ms, faster than 59.42% of Go online submissions for Maximum Sum Circular Subarray.&#10;Memory Usage: 7.4 MB, less than 100.00% of Go online submissions for Maximum Sum Circular Subarray." />
@@ -164,7 +157,12 @@
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Sort Array by Increasing Frequency.&#10;Memory Usage: 3.1 MB, less than 76.19% of Go online submissions for Sort Array by Increasing Frequency." />
     <MESSAGE value="Runtime: 691 ms, faster than 19.05% of Go online submissions for License Key Formatting.&#10;Memory Usage: 40.2 MB, less than 7.14% of Go online submissions for License Key Formatting." />
     <MESSAGE value="MinStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="MinStack" />
+    <MESSAGE value="Runtime: 24 ms, faster than 87.71% of Go online submissions for Group Anagrams.&#10;Memory Usage: 8.6 MB, less than 46.72% of Go online submissions for Group Anagrams." />
+    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Same Tree.&#10;Memory Usage: 2.1 MB, less than 59.09% of Go online submissions for Same Tree." />
+    <MESSAGE value="Runtime: 4 ms, faster than 92.16% of Go online submissions for Find Bottom Left Tree Value.&#10;Memory Usage: 5.5 MB, less than 60.78% of Go online submissions for Find Bottom Left Tree Value." />
+    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Invert Binary Tree.&#10;Memory Usage: 2.2 MB, less than 57.03% of Go online submissions for Invert Binary Tree." />
+    <MESSAGE value="Runtime: 8 ms, faster than 98.96% of Go online submissions for Employee Importance.&#10;Memory Usage: 6.8 MB, less than 87.50% of Go online submissions for Employee Importance." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 8 ms, faster than 98.96% of Go online submissions for Employee Importance.&#10;Memory Usage: 6.8 MB, less than 87.50% of Go online submissions for Employee Importance." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -299,8 +297,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/49_Group_Anagrams.go</url>
-          <line>28</line>
+          <line>5</line>
           <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/438_Find_All_Anagrams_in_a_String.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

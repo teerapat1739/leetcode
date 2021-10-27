@@ -18,7 +18,6 @@ func largestValues(root *TreeNode) []int {
 	dictLevel := make(map[int]int)
 	level := 1
 	maxLevel := 1
-	maxLevel := 1
 	var travel func(root *TreeNode, currentLevel int)
 	travel = func(root *TreeNode, currentLevel int) {
 		maxLevel = max(currentLevel, maxLevel)
