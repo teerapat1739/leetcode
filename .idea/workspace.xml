@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 8 ms, faster than 98.96% of Go online submissions for Employee Importance.&#10;Memory Usage: 6.8 MB, less than 87.50% of Go online submissions for Employee Importance.">
-      <change afterPath="$PROJECT_DIR$/75_Sort_Colors.go" afterDir="false" />
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 0 ms, faster than 100.00% of Go online submissions for Sort Colors.&#10;Memory Usage: 2.1 MB, less than 44.64% of Go online submissions for Sort Colors.">
+      <change afterPath="$PROJECT_DIR$/148_Sort_List.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/515_Find_Largest_Value_in_Each_Tree_Row.go" beforeDir="false" afterPath="$PROJECT_DIR$/515_Find_Largest_Value_in_Each_Tree_Row.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Runtime: 4 ms, faster than 93.21% of Go online submissions for Delete and Earn.&#10;Memory Usage: 3.7 MB, less than 75.31% of Go online submissions for Delete and Earn." />
     <MESSAGE value="use kadane's algorithm" />
     <MESSAGE value="Runtime: 60 ms, faster than 59.42% of Go online submissions for Maximum Sum Circular Subarray.&#10;Memory Usage: 7.4 MB, less than 100.00% of Go online submissions for Maximum Sum Circular Subarray." />
     <MESSAGE value="Runtime: 4 ms, faster than 56.93% of Go online submissions for Maximum Product Subarray.&#10;Memory Usage: 2.8 MB, less than 46.69% of Go online submissions for Maximum Product Subarray." />
@@ -162,7 +160,8 @@
     <MESSAGE value="Runtime: 4 ms, faster than 92.16% of Go online submissions for Find Bottom Left Tree Value.&#10;Memory Usage: 5.5 MB, less than 60.78% of Go online submissions for Find Bottom Left Tree Value." />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Invert Binary Tree.&#10;Memory Usage: 2.2 MB, less than 57.03% of Go online submissions for Invert Binary Tree." />
     <MESSAGE value="Runtime: 8 ms, faster than 98.96% of Go online submissions for Employee Importance.&#10;Memory Usage: 6.8 MB, less than 87.50% of Go online submissions for Employee Importance." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 8 ms, faster than 98.96% of Go online submissions for Employee Importance.&#10;Memory Usage: 6.8 MB, less than 87.50% of Go online submissions for Employee Importance." />
+    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Sort Colors.&#10;Memory Usage: 2.1 MB, less than 44.64% of Go online submissions for Sort Colors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Sort Colors.&#10;Memory Usage: 2.1 MB, less than 44.64% of Go online submissions for Sort Colors." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
