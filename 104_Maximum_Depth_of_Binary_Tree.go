@@ -26,10 +26,3 @@ func maxDepth(root *TreeNode) int {
 	}
 	return dfs(root, 0)
 }
-
-func max(a int, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
