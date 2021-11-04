@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 0 ms, faster than 100.00% of Go online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 2.6 MB, less than 100.00% of Go online submissions for Merge Two Sorted Lists.">
-      <change afterPath="$PROJECT_DIR$/88_Merge_Sorted_Array.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,14 +52,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Test.Test_twoSum2/case_2 in leetcode-everyday">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+  <component name="RunManager" selected="Go Build.go build leetcode-everyday/poc/time">
+    <configuration name="go build leetcode-everyday/poc/time" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday/poc/time" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/poc/time/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="Test_findAnagrams438/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -85,17 +84,6 @@
       <pattern value="^\QTest_findAnagrams438\E$/^\Qcase_2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_groupAnagrams/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_groupAnagrams\E$/^\Qcase_1\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test_twoSum2/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -118,23 +106,13 @@
       <pattern value="^\QTest_twoSum2\E$/^\Qcase_2\E$" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetcode-everyday/poc/time" />
         <item itemvalue="Go Test.Test_twoSum2/case_2 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_twoSum2/case_1 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_findAnagrams438/case_2 in leetcode-everyday" />
         <item itemvalue="Go Test.Test_findAnagrams438/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_groupAnagrams/case_1 in leetcode-everyday" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +238,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/63_Unique_Paths_II.go</url>
-          <line>6</line>
+          <line>10</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
