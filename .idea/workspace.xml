@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 0 ms, faster than 100.00% of Go online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 2.6 MB, less than 100.00% of Go online submissions for Merge Two Sorted Lists.">
+    <list default="true" id="b709eca5-6f31-42ca-82e6-3af5a7d37f1c" name="Default Changelist" comment="Runtime: 164 ms, faster than 100.00% of Go online submissions for Find a Peak Element II.&#10;Memory Usage: 11.9 MB, less than 84.00% of Go online submissions for Find a Peak Element II.">
+      <change afterPath="$PROJECT_DIR$/238.ProductOfArrayExceptSelf.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoexpert/ArrayOfProducts.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoexpert/ArrayOfProducts_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algoexpert/LongestPeak.go" beforeDir="false" afterPath="$PROJECT_DIR$/algoexpert/LongestPeak.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +56,44 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Build.go build leetcode-everyday/poc/time">
-    <configuration name="go build leetcode-everyday/poc/time" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestArrayOfProducts/case_1 in leetcode-everyday/algoexpert">
+    <configuration name="TestArrayOfProducts/case_1 in leetcode-everyday/algoexpert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/algoexpert" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="leetcode-everyday/poc/time" />
+      <package value="leetcode-everyday/algoexpert" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/poc/time/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestArrayOfProducts\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_findAnagrams438/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLongestPeak/case_1 in leetcode-everyday/algoexpert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/algoexpert" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday/algoexpert" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestLongestPeak\E$/^\Qcase_1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLongestPeak/case_2 in leetcode-everyday/algoexpert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/algoexpert" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="leetcode-everyday/algoexpert" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestLongestPeak\E$/^\Qcase_2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_findPeakElement/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -70,10 +101,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_findAnagrams438\E$/^\Qcase_1\E$" />
+      <pattern value="^\QTest_findPeakElement\E$/^\Qcase_1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_findAnagrams438/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_findPeakElement/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -81,38 +112,16 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_findAnagrams438\E$/^\Qcase_2\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_twoSum2/case_1 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_twoSum2\E$/^\Qcase_1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_twoSum2/case_2 in leetcode-everyday" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="leetcode-everyday" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_twoSum2\E$/^\Qcase_2\E$" />
+      <pattern value="^\QTest_findPeakElement\E$/^\Qcase_2\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build leetcode-everyday/poc/time" />
-        <item itemvalue="Go Test.Test_twoSum2/case_2 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_twoSum2/case_1 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_findAnagrams438/case_2 in leetcode-everyday" />
-        <item itemvalue="Go Test.Test_findAnagrams438/case_1 in leetcode-everyday" />
+        <item itemvalue="Go Test.TestArrayOfProducts/case_1 in leetcode-everyday/algoexpert" />
+        <item itemvalue="Go Test.Test_findPeakElement/case_2 in leetcode-everyday" />
+        <item itemvalue="Go Test.Test_findPeakElement/case_1 in leetcode-everyday" />
+        <item itemvalue="Go Test.TestLongestPeak/case_2 in leetcode-everyday/algoexpert" />
+        <item itemvalue="Go Test.TestLongestPeak/case_1 in leetcode-everyday/algoexpert" />
       </list>
     </recent_temporary>
   </component>
@@ -133,10 +142,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Runtime: 128 ms, faster than 42.50% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.&#10;Memory Usage: 11.5 MB, less than 9.17% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee." />
-    <MESSAGE value="done many questions" />
-    <MESSAGE value="Runtime: 140 ms, faster than 83.60% of Go online submissions for Daily Temperatures.&#10;Memory Usage: 9.8 MB, less than 59.79% of Go online submissions for Daily Temperatures." />
-    <MESSAGE value="&#10;Runtime: 6 ms, faster than 20.13% of Go online submissions for Reverse Words in a String.&#10;Memory Usage: 8.5 MB, less than 8.80% of Go online submissions for Reverse Words in a String." />
     <MESSAGE value="SortedSquaredArray with time complexity o(n) also space complexity" />
     <MESSAGE value="Runtime: 180 ms, faster than 64.25% of Go online submissions for Insert Delete GetRandom O(1).&#10;Memory Usage: 50.2 MB, less than 74.30% of Go online submissions for Insert Delete GetRandom O(1)." />
     <MESSAGE value="Runtime: 227 ms, faster than 50.00% of Go online submissions for Online Stock Span.&#10;Memory Usage: 9.6 MB, less than 9.09% of Go online submissions for Online Stock Span." />
@@ -158,7 +163,11 @@
     <MESSAGE value="Runtime: 28 ms, faster than 94.79% of Go online submissions for 3Sum.&#10;Memory Usage: 7.6 MB, less than 64.38% of Go online submissions for 3Sum." />
     <MESSAGE value="Runtime: 8 ms, faster than 64.74% of Go online submissions for Two Sum.&#10;Memory Usage: 5.6 MB, less than 9.14% of Go online submissions for Two Sum." />
     <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 2.6 MB, less than 100.00% of Go online submissions for Merge Two Sorted Lists." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 2.6 MB, less than 100.00% of Go online submissions for Merge Two Sorted Lists." />
+    <MESSAGE value="LongestPeak" />
+    <MESSAGE value="Runtime: 0 ms, faster than 100.00% of Go online submissions for Find Peak Element.&#10;Memory Usage: 2.8 MB, less than 100.00% of Go online submissions for Find Peak Element." />
+    <MESSAGE value="Runtime: 8 ms, faster than 82.12% of Go online submissions for Peak Index in a Mountain Array.&#10;Memory Usage: 4.6 MB, less than 39.11% of Go online submissions for Peak Index in a Mountain Array." />
+    <MESSAGE value="Runtime: 164 ms, faster than 100.00% of Go online submissions for Find a Peak Element II.&#10;Memory Usage: 11.9 MB, less than 84.00% of Go online submissions for Find a Peak Element II." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 164 ms, faster than 100.00% of Go online submissions for Find a Peak Element II.&#10;Memory Usage: 11.9 MB, less than 84.00% of Go online submissions for Find a Peak Element II." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -305,6 +314,26 @@
           <url>file://$PROJECT_DIR$/1_Two_Sum.go</url>
           <line>9</line>
           <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algoexpert/LongestPeak.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/162FindPeakElement.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algoexpert/ArrayOfProducts.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/algoexpert/ArrayOfProducts.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
