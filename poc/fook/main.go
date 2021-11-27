@@ -1,76 +1,26 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
+import "math"
 
-type Tx struct {
-	Price float64
-	Date  float64
-}
-
-type Interval struct {
-	From float64
-	To   float64
-	tx   []Tx
-}
-
-func Fook() []Interval {
-
-	txs := []Tx{
-		{Price: 1, Date: 1},
-		{Price: 3, Date: 2},
-		{Price: 1.7, Date: 4},
-	}
-
-	intervals := []Interval{
-		{From: 1, To: 2, tx: []Tx{}},
-		{From: 2, To: 3, tx: []Tx{}},
-		{From: 3, To: 4, tx: []Tx{}},
-	}
-
-	dpFrom := make(map[float64]int)
-	dpTo := make(map[float64]int)
-
-	for i, v := range intervals {
-		dpFrom[v.From] = i
-		dpTo[v.To] = i
-	}
-
-	for _, tx := range txs {
-		valFrom, okFrom := dpFrom[tx.Date]
-		valTo, okTo := dpTo[tx.Date]
-		if okTo && okFrom {
-			intervals[valFrom].tx = append(intervals[valFrom].tx, Tx{
-				Price: tx.Price,
-			})
-
-			intervals[valTo].tx = append(intervals[valTo].tx, Tx{
-				Price: tx.Price,
-			})
-		}
-
-		if okFrom && !okTo {
-			intervals[valFrom].tx = append(intervals[valFrom].tx, Tx{
-				Price: tx.Price,
-			})
-		}
-
-		if !okFrom && okTo {
-			intervals[valTo].tx = append(intervals[valTo].tx, Tx{
-				Price: tx.Price,
-			})
+func MinNumberOfCoinsForChange(n int, denoms []int) int {
+	dp := make([]int, n+1)
+	for i := 1; i < n+1; i++ {
+		dp[i] = math.MaxInt32
+		for _, denom := range {
+			if i >= denom {
+				dp[i] = min(dp[i], dp[i-denom])
+			}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 		}
 	}
-	// x arr from
-	// y arr to
-	return intervals
+	if dp[n] == math.MaxInt32 {
+			return -1
+	}
+	return dp[n]
 }
 
-func main() {
-	fmt.Println(math.Ceil(1.1))
-	//fmt.Println(math.Ceil(1.7))
-	a := Fook()
-	fmt.Println(a)
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }
