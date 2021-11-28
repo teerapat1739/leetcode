@@ -1,5 +1,7 @@
 package leetcode
 
+import "fmt"
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -64,6 +66,7 @@ func allPossibleFBTV2(n int) []*TreeNode {
 				root := &TreeNode{Val: 0}
 				root.Left = l
 				root.Right = r
+				fmt.Println(n, i, l, r)
 				res = append(res, root)
 			}
 		}
